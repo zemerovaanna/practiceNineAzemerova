@@ -13,7 +13,7 @@ class Letter (_subject: String) : Mandatory (_subject)   {
         if(sparepen == false){
             println("Студент не допущен до экзаменя из-за не наличия запасной ручки.")
         }
-        if(sparepen == false){
+        if(passport == false){
             println("Студент не допущен до экзаменя из-за не наличия паспорта.")
         }
     }
